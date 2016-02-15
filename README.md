@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/spalax/keywordtool-client.svg?branch=master)](https://travis-ci.org/spalax/keywordtool-client)
+[![Coverage Status](https://coveralls.io/repos/github/spalax/keywordtool-client/badge.svg?branch=master)](https://coveralls.io/github/spalax/keywordtool-client?branch=master)
 # Object Orient keywordtool.io API Client
 
 It is implementation of public API for the keywordtool.io, 
