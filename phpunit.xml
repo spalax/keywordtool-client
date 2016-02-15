@@ -13,6 +13,9 @@
         <var name="GOOGLE_KW_RESPONSE_JSON_FILE"
              value="tests/resources/fixtures/response_keyword_whatsapp_google.json" />
     </php>
+    <logging>
+        <log type="coverage-clover" target="./build/logs/clover.xml"/>
+    </logging>
     <testsuites>
         <testsuite name="unit">
             <directory>./tests</directory>
