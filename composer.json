@@ -1,0 +1,33 @@
+{
+    "name": "spalax/kwt-client",
+    "description": "Client for the keyword tool.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksii Mylotskyi",
+            "email": "spalaxinco@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+
+    "require-dev": {
+      "phpunit/phpunit": "^4.8",
+      "mockery/mockery": "^0.9.4",
+      "mikey179/vfsStream": "^1.6"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "KWTClient\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KWTClient\\Tests\\": "tests"
+        }
+    }
+}

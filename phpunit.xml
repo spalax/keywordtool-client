@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="true"
+         bootstrap="./vendor/autoload.php">
+    <php>
+        <var name="GOOGLE_KW_RESPONSE_JSON_FILE"
+             value="tests/resources/fixtures/response_keyword_whatsapp_google.json" />
+    </php>
+    <testsuites>
+        <testsuite name="unit">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
