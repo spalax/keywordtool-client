@@ -13,10 +13,10 @@ before_script:
 
 script:
   - mkdir -p build/logs
-  - phpunit -v --configuration `pwd`/test/phpunit.xml
+  - ./vendor/bin/phpunit -v --testsuite=unit
 
 after_script:
-  - php vendor/bin/coveralls -v --exclude-no-stmt
+  - ./vendor/bin/coveralls -v --exclude-no-stmt
 
 matrix:
   allow_failures:
