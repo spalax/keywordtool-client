@@ -34,7 +34,7 @@ class Request implements RequestInterface
      *
      * @return $this
      */
-    public function country($countryCode = 'es')
+    public function country($countryCode = 'us')
     {
         $this->addQueryParam('country', $countryCode);
         return $this;
@@ -47,7 +47,7 @@ class Request implements RequestInterface
      *
      * @return $this
      */
-    public function language($language = 'es')
+    public function language($language = 'en')
     {
         $this->addQueryParam('language', $language);
         return $this;
