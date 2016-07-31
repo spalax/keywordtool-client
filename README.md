@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/spalax/keywordtool-client/badge.svg?branch=master)](https://coveralls.io/github/spalax/keywordtool-client?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/56c2235018b271002c69a2b1/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56c2235018b271002c69a2b1)
 [![Total Downloads](https://poser.pugx.org/spalax/kwt-client/downloads)](https://packagist.org/packages/spalax/kwt-client)
-# Object Orient keywordtool.io API Client
+# Object Oriented keywordtool.io API Client
 
 It is implementation of public API for the keywordtool.io, 
 it can be reviewed here http://keywordtool.io/api/documentation
